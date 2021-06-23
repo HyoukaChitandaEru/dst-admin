@@ -39,6 +39,8 @@ java -version
 
 ```bash
 wget http://clouddn.tugos.cn/release/dst-admin-1.0.6.jar -O dst-admin.jar
+
+wget https://github.com/HyoukaChitandaEru/dst-admin/releases/download/1.2.0/dst-admin-1.2.0.jar
 ```
 
 或者
