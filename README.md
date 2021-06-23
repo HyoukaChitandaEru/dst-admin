@@ -84,6 +84,15 @@ dst-admin-1.2.0.jar重命名为dst-admin.jar
 #启动
 java -jar dst-admin.jar 
 ```
+
+
+出现了Completed initialization表示启动成功，按Control+C键结束进程
+
+
+出现了Completed initialization表示启动成功，按Control+C键结束进程
+
+
+出现了Completed initialization表示启动成功，按Control+C键结束进程
 ###  执行饥荒安装脚本，安装饥荒客户端
 ```
 #启动完成将释放install.sh脚本，用于安装steam饥荒客户端
