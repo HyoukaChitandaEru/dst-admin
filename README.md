@@ -92,6 +92,13 @@ java -jar dst-admin.jar
 ```
 ###  使用dstStart.sh脚本管理dst-admin服务
 ```
+
+执行管理脚本dstStart.sh，注意jar包的名称必须为dst-admin.jar不然找到文件，输入3重启服务
+
+
+执行管理脚本dstStart.sh，注意jar包的名称必须为dst-admin.jar不然找到文件，输入3重启服务
+
+
 #执行dstStart.sh脚本按照指示进行
 ./dstStart.sh
 ```
