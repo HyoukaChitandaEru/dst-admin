@@ -1,5 +1,8 @@
 ## dst-admin:Steam平台饥荒联机版管理后台
+forked from https://github.com/qinming99/dst-admin
+
 > 工作之余，发挥余热，弄了一个steam平台的Don't Starve Together 饥荒联机版管理后台，支持傻瓜式服务器部署，方便有兴趣折腾服务器的小伙伴可以快速的搭建服务器。
+
 
 ## 支持的功能
 1.  支持一键启动停止地面和洞穴服务
