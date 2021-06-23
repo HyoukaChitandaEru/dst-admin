@@ -38,10 +38,20 @@ java -version
 ###  下载最新版dst-admin安装包
 
 ```bash
-wget http://clouddn.tugos.cn/release/dst-admin-1.0.6.jar -O dst-admin.jar
-
 wget https://github.com/HyoukaChitandaEru/dst-admin/releases/download/1.2.0/dst-admin-1.2.0.jar
 ```
+
+下载之后把
+
+
+dst-admin-1.2.0.jar重命名为dst-admin.jar
+
+dst-admin-1.2.0.jar重命名为dst-admin.jar
+
+dst-admin-1.2.0.jar重命名为dst-admin.jar
+
+即去掉版本号 很重要！！！
+
 
 或者
 
@@ -54,6 +64,20 @@ curl -L https://github.com/qinming99/dst-admin/releases/download/v1.0.6/dst-admi
 ```bash
 wget https://github.com/qinming99/dst-admin/releases/download/v1.0.6/dst-admin-1.0.6.jar  -O dst-admin.jar
 ```
+
+
+下载之后把
+
+
+dst-admin-1.2.0.jar重命名为dst-admin.jar
+
+dst-admin-1.2.0.jar重命名为dst-admin.jar
+
+dst-admin-1.2.0.jar重命名为dst-admin.jar
+
+即去掉版本号 很重要！！！
+
+
 
 ###  启动dst-admin
 ```
