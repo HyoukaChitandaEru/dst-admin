@@ -103,14 +103,24 @@ java -jar dst-admin.jar
 ./dstStart.sh
 ```
 
+
+安装完成此时我们就可以登陆到我们的饥荒管理平台对服务器进行管理了
+
+
+登陆饥荒管理后台设置自己的服务器
+
+
+在浏览器输入我们的访问地址登陆管理后台，地址为服务器的公网IP（云服务都有提供），加端口号，即：http://xx.xx.xx.xx:8080
+
+
+输入用户名admin 密码123456 即可登陆，登陆成功开始设置服务器
+
+
 ## 预览图
 
 ![img](https://github.com/qinming99/dst-admin/blob/master/images/image1.png)
 ![img](https://github.com/qinming99/dst-admin/blob/master/images/image2.png)
 ![img](https://github.com/qinming99/dst-admin/blob/master/images/yanshi.gif)
-## 饥荒交流群
-
-QQ群： **1005887957**
 
 
 ## END
