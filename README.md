@@ -112,23 +112,40 @@ Tips: 其实还是推荐自己创建本地docker镜像的，因为现成的docke
 
 下面是一个本地创建镜像示例：
 
+
 首先准备构建镜像需要的两个文件：打包好的项目jar，项目初始化脚本install.sh
+
 
 将打包好的项目jar包复制到file目录下，例如dst-admin-1.0.5.jar，然后重命名为dst-admin.jar
 
+
 将项目的初始化脚本install.sh复制到file目录下，然后重命名为install.sh
+
 
 在file目录下执行如下指令，构建本地docker镜像，构建速度依据网速和机器性能决定，约5min
 
+
 ${your_name}为你的docker hub账户名
 
+
 $ docker build -t ${your_name}/dst-admin:v1.0.5 .
+
+
 构建成功后，查看构建的docker镜像
 
+
+
 $ docker images
+
+
 REPOSITORY                         TAG                 IMAGE ID            CREATED             SIZE
+
+
 dzzhyk/dst-admin                   v1.0.5              563c8a774366        2 weeks ago         3.05GB
+
+
 创建本地docker实例并运行
+
 
 $ docker run --name dst-admin -d -p8080:8080 -p10888:10888 -p10998-10999:10998-10999 ${your_name}/dst-admin:v1.0.5
 
